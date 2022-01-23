@@ -1,0 +1,36 @@
+/* Carlos Carrasquillo
+   23 de enero de 2022
+   WEB Design & Lab 0680WEN  
+   Laboratorio 1
+   */
+
+body{
+    width: 550px;
+    margin: 0 auto;
+} 
+
+#forecast{
+    width: 550px;
+    margin: 0;
+    padding: .3rem;
+    font: 1rem 'Fira Sans', sans-serif;
+    background-color: #eee;
+}
+/* esto es un child selector, para separar los articles*/
+nav > a{
+    margin: 25px;
+}
+h1{
+    text-align: center;
+}
+
+.day-forecast{
+    background-color: white;
+    background-image: url(imagen/attachment_image_thumb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+footer{
+    text-align: center;
+}
